@@ -1,0 +1,15 @@
+/* Colors */
+$clr-primary: hsl(253, 35%, 20%);
+$clr-primary-dark: hsl(208, 100%, 12%);
+$clr-secondary: hsl(0, 0%, 100%);
+$clr-tertiary: hsl(29, 92%, 57%);
+
+/* Background color utilities */
+.bg-primary { background-color: $clr-primary };
+.bg-secondary { background-color: $clr-secondary };
+.bg-tertiary { background-color: $clr-tertiary };
+
+/* Text color utilities */
+.text-primary { color: $clr-primary };
+.text-secondary { color: $clr-secondary };
+.text-tertiary { color: $clr-tertiary };

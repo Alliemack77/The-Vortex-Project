@@ -1,0 +1,9 @@
+@use '../abstracts/variables' as *;
+
+.container {
+    border: solid red 2px;
+    max-width: 87.5rem; //1400px
+    padding: $p-body;
+    margin-inline: auto;
+}
+ 

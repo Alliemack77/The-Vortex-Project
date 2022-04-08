@@ -1,7 +1,4 @@
-body {
-    background-color: blue;
-}
-
-h1 {
-    color: green;
-}
+@import './abstracts/';
+@import './base/';
+@import './utilities/';
+@import './components/';

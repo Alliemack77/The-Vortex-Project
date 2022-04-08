@@ -1,0 +1,49 @@
+@use '../abstracts/colors.scss' as *;
+@use '../abstracts/fonts.scss' as *;
+@use '../abstracts/mixins' as *;
+
+/* Font Family Utilities */
+.ff-body { font-family: $ff-body; }
+.ff-accent { font-family: $ff-accent; }
+
+/* Font Size Utilities */
+.fs-900 { font-size: $fs-900; };
+.fs-800 { font-size: $fs-800; };
+.fs-700 { font-size: $fs-700; };
+.fs-600 { font-size: $fs-600; };
+.fs-500 { font-size: $fs-500; };
+.fs-400 { font-size: $fs-400; };
+.fs-300 { font-size: $fs-300; };
+
+/* Font Weight Utilities */
+.fw-700 { font-weight: $fw-700; };
+.fw-500 { font-weight: $fw-500; };
+.fw-400 { font-weight: $fw-400; };
+.fw-300 { font-weight: $fw-300; };
+
+/* Line-height */
+.fs-900, 
+.fs-800, 
+.fs-700 {
+    line-height: 1.1;
+}
+
+/* Headings */
+.heading-accent {
+    font-family: $ff-accent;
+    font-weight: $fw-400;
+    color: $clr-tertiary;
+}
+
+.heading-title {
+    font-size: $fs-600;
+    font-weight: $fw-400;
+}
+
+.heading-subtitle {
+    font-size: $fs-800;
+    font-style: italic;
+    padding-block-end: .5rem;
+    @include grad-underline(10px);
+}
+
