@@ -3,13 +3,13 @@ $ff-body: 'Nunito', sans-serif;
 $ff-accent: 'Oleo Script', cursive;
 
 /* Font sizes */
-$fs-900: 6rem; //96px
+$fs-900: 6rem; // 96px
 $fs-800: clamp(1.5rem, 10vw, 3rem);
-// $fs-800: 3rem;
-$fs-700: 2.25rem;
-$fs-600: 2rem;
-$fs-500: 1.5rem;
-$fs-400: 1.125rem; //18px
+// $fs-800: 3rem; // 48px
+$fs-700: 2.25rem; // 36px
+$fs-600: 2rem; // 32px
+$fs-500: 1.5rem; // 24px
+$fs-400: 1.125rem; // 18px
 $fs-300: clamp(.875rem, 3vw, 1rem);
 // $fs-300: 1rem;
 $fs-200: 0.875rem;

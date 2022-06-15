@@ -3,14 +3,12 @@ import React, {useState} from "react";
 
 const Header = () => {
 
-    const [isToggled, setIsToggled] = useState(false);
+    const [isToggled, setIsToggled] = useState(false)
 
     function handleClick() {
-        console.log("HI")
-        setIsToggled(!isToggled)
+        setIsToggled(prevToggle => !prevToggle)
     }
     
-    console.log(isToggled)
     return (
         <header className="primary-header flex">
             <div className="logo">
@@ -22,7 +20,7 @@ const Header = () => {
                 <button
                     className="mobile-nav-toggle"
                     aria-controls="primary-navigation"
-                    onClick={() => setIsToggled(!isToggled)}
+                    onClick={handleClick}
                     >
                     <span className="hamburger sr-only"></span>
                 </button>
