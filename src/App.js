@@ -3,20 +3,24 @@ import Jodi from './assets/jodi.jpg'
 import CompanionList from './components/CompanionList'
 import Header from './components/Header'
 import Hero from './components/Hero'
+import Spotlight from './components/Spotlight'
 
 
 
-function App() {
+const App = () => {
 
     return (
-        <div className="container">
+        <>
             <Header />
-            <main>
-                <Hero />
+            <main className="container">
+                {/* <main> */}
+                    <Hero />
+                    <Spotlight />
+                {/* </main> */}
+                
+                
             </main>
-            
-            
-        </div>
+        </>
     )
     
 }

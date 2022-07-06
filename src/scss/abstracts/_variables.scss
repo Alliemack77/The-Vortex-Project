@@ -1,5 +1,6 @@
 /* Padding */
-$p-body: 2rem clamp(1rem, 3vw, 4rem);
+$p-body: 0 clamp(1rem, 3vw, 4rem) 2rem;
+$p-header: 2rem clamp(1rem, 3vw, 4rem);
 
 /* Margin */
 $m-sm: 2rem;

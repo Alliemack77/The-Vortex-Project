@@ -15,15 +15,15 @@ const Hero = () => {
                     <p>1 January, 2022</p>
                 </div>
                 <p className='description'>New Year’s Eve. Sarah is working - again. Nick is her only customer - again. Same old same old. Except this year, their countdown to midnight will be the strangest and deadliest they have ever known. Why is an executioner Dalek targeting these two people, in this place, on this night? Why are they having to live through the same moments again? Can the Doctor, Yaz and Dan save them and survive into the New Year?</p>
-                <div className='cta'>
-                    <div>
-                        <Button
-                            icon
-                            text='Watch on BBC'
-                            href='https://www.bbc.co.uk/programmes/m000qr8k' />
-                    </div>
-                    <SocialBar/>
+            </div>
+            <div className='cta'>
+                <div>
+                    <Button
+                        icon
+                        text='Watch on BBC'
+                        href='https://www.bbc.co.uk/programmes/m000qr8k' />
                 </div>
+                <SocialBar/>
             </div>
 
 

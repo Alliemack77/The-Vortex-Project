@@ -13,7 +13,7 @@ const Header = () => {
         <header className="primary-header flex">
             <div className="logo">
                 <h1 className="heading-accent fs-800">The Vortex</h1>
-                 <p className="fs-300 fw-700">The place for wibbly-wobbly, timey-wimey stuff</p>
+                <p className="fs-300 fw-700">The place for wibbly-wobbly, timey-wimey stuff</p>
             </div>
 
             <div className={`${isToggled ? "nav-open" : ""}`}>

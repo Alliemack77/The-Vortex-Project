@@ -3,4 +3,13 @@
 
 .social-bar {
     font-size: 3rem;
+
+    a {
+        color: $clr-secondary;
+    }
+
+    a:hover, 
+    a:focus-within {
+        color: $clr-tertiary;
+    }
 }

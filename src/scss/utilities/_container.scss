@@ -1,9 +1,19 @@
 @use '../abstracts/variables' as *;
 
 .container {
-    // border: solid red 2px;
-    max-width: 87.5rem; //1400px
+    // border: solid green 2px;
+    max-width: 90rem; //1400px
     padding: $p-body;
-    margin-inline: auto;
+
+    @media (min-width: $mq-768) {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin-inline: auto;
+        z-index: -1;
+    }
+    
 }
  

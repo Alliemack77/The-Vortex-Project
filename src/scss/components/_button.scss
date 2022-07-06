@@ -14,4 +14,10 @@
         font-size: 2rem;
     }
 
+    &:hover, 
+    &:focus-within {
+        outline: solid $clr-tertiary 2px;
+        background-color: transparent;
+        color: $clr-tertiary;
+    }
 }
