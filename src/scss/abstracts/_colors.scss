@@ -2,14 +2,17 @@
 $clr-primary: hsl(253, 35%, 20%);
 $clr-primary-dark: hsl(208, 100%, 12%);
 $clr-secondary: hsl(0, 0%, 100%);
+$clr-secondary-50: hsla(0, 0%, 100%, 0.50);
 $clr-tertiary: hsl(29, 92%, 57%);
 
 /* Background color utilities */
 .bg-primary { background-color: $clr-primary };
 .bg-secondary { background-color: $clr-secondary };
+.bg-secondary-50 { background-color: $clr-secondary-50 };
 .bg-tertiary { background-color: $clr-tertiary };
 
 /* Text color utilities */
 .text-primary { color: $clr-primary };
 .text-secondary { color: $clr-secondary };
+.text-secondary-50 { color: $clr-secondary-50 };
 .text-tertiary { color: $clr-tertiary };

@@ -51,3 +51,10 @@
     padding-block-end: .5rem;
 }
 
+.subheading-title {
+    font-size: $fs-600;
+    font-weight: $fw-400;
+    padding-inline-start: 1rem;
+    border-inline-start: 2px solid $clr-tertiary ;
+}
+

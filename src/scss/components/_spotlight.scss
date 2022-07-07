@@ -1,0 +1,39 @@
+@use '../abstracts/colors' as *;
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+.spotlight {
+    background-image: url(../assets/bg-purple-1.jpg);
+    background-size: cover;
+    // background-position: center center;
+    background-repeat: no-repeat;
+    padding: 4rem clamp(1rem, 3vw, 4rem);
+    width: 100vw;
+    margin-inline-start: 50%;
+    transform: translateX(-50%);
+    overflow-x: hidden;
+
+    @media (min-width: $mq-768) {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+.spotlight_description {
+    @include margin-block(1.75rem, 2rem);
+}
+
+.spotlight_details {
+    // border: solid red 2px;
+    @include margin-block(2rem, 0);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 380px;
+
+    .detail {
+        max-width: 160px;
+    }
+}
+

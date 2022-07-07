@@ -3,10 +3,8 @@
 @use '../abstracts/mixins' as *;
 
 .hero {
-    // border:  solid yellow 2px;
     @include margin-block(0, 10rem);
     display: grid;
-    // position: relative;
     
     @media (min-width: $mq-768) {
         grid-template-rows: repeat(4, 200px);  
@@ -14,25 +12,17 @@
 }
 
 .hero_image {
-    @include margin-block(1rem, 0);
 
     @media (min-width: $mq-768) {
-        margin-block-start: 0;
-        // position: absolute;
         grid-row: 1;
         justify-self: end;
-        // top: 0;
-        // right: 0;
-        // z-index: -1;
-        // margin-top: -4rem;
     }
 }
-
 
 .hero_body {
 
     .data {
-        @include margin-block(1.75rem, 2rem)
+        @include margin-block(1.75rem, 2rem);
     }
 
     .description {
