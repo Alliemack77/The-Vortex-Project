@@ -1,5 +1,6 @@
 import React from 'react'
 import Jodi from './assets/jodi.jpg'
+import Article from './components/Article'
 import CompanionList from './components/CompanionList'
 import Header from './components/Header'
 import Hero from './components/Hero'
@@ -13,10 +14,9 @@ const App = () => {
         <>
             <Header />
             <main className="container">
-                {/* <main> */}
-                    <Hero />
-                    <Spotlight />
-                {/* </main> */}
+                <Hero />
+                <Spotlight />
+                <Article />
                 
                 
             </main>

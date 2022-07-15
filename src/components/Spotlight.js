@@ -1,14 +1,14 @@
-import React from 'react';
-import SectionHeading from './SectionHeading';
+import React from 'react'
+import SectionHeading from './SectionHeading'
+import SectionSubheading from './SectionSubheading'
 import jennaSpotlight from '../assets/clara-spotlight.jpg'
-import SectionSubheading from './SectionSubheading';
 
 
 const Spotlight = () => {
 
     return (
-        <section className="spotlight">
-            {/* <div className="spotlight_body"> */}
+        <>
+            <section className="spotlight">
                 <div className="description">
                     <SectionHeading title="Spotlights" subtitle="Clara Oswald" />
                     <p>Clara Oswald is one of the Doctor’s most extraordinary companions. In order to help the Doctor she allowed the time winds to tear her into countless different iterations of herself. These different Claras helped the Time Lord on many occasions, with one of them even persuading the First Doctor to steal the TARDIS that became ‘his’ time machine.</p>
@@ -42,12 +42,13 @@ const Spotlight = () => {
                         </div>
                     </div>
                 </div>
-            {/* </div> */}
-            <div className="image">
-                <img src={jennaSpotlight}/>
-            </div>
+                <div className="image">
+                    <img src={jennaSpotlight} alt="Clara Oswald played by Jenna Coleman"/>
+                </div>
+            </section>
+
             
-        </section>
+        </>
     )
 }
 

@@ -1,0 +1,22 @@
+@use '../abstracts/mixins' as *;
+
+
+.article {
+    background-image: url(../assets/tardis-forrest.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+    min-height: 60vh;
+    display: grid;
+    place-items: center;
+
+    .description {
+        p {
+            @include margin-block(1rem, 0)
+        }
+        .button {
+            @include margin-block(2rem, 0)
+        }
+    }
+}
