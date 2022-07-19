@@ -9,9 +9,11 @@ const Article = () => {
     return (
         <section className="article">
             <div className="description">
-                <SectionHeading subtitle="What's next for the Doctor?"/>
-                <p>Your guess is as good as ours. Checkout our predictions for the next Doctor.</p>
-                <p>January 12, 2022</p>
+                <SectionHeading subtitle="The Next Doctor?"/>
+                <div className="body">
+                    <p>Your guess is as good as ours. Checkout our predictions for the next Doctor.</p>
+                    <p className="fw-700 italic">January 12, 2022</p>
+                </div>
                 <Button text="Read More"/>
             </div>
             {/* <img src={tardisForrest} alt=""/> */}

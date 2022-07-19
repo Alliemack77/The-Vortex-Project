@@ -2,21 +2,35 @@
 
 
 .article {
+    @include margin-block(0, 10rem);
     background-image: url(../assets/tardis-forrest.jpg);
-    background-position: left center;
+    background-position: 10% center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 1rem;
     min-height: 60vh;
     display: grid;
-    place-items: center;
+    grid-template-columns: 2rem repeat(3, 1fr) 2rem;
+    grid-template-rows: 2rem repeat(3, 1fr) 2rem;
 
     .description {
-        p {
-            @include margin-block(1rem, 0)
+        grid-column: 1 /5;
+        grid-row: 4;
+
+        .body {
+            @include margin-block(1.5rem, 0);
+            max-width: 450px;
         }
+
         .button {
             @include margin-block(2rem, 0)
         }
     }
+
+    @media (min-width: 768px) {
+        .description {
+            grid-column: 2 /5;
+        }
+    }
+    
 }
