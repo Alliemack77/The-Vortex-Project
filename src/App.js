@@ -4,6 +4,7 @@ import Article from './components/Article'
 import CompanionList from './components/CompanionList'
 import Header from './components/Header'
 import Hero from './components/Hero'
+import NewsList from './components/NewsList'
 import Spotlight from './components/Spotlight'
 
 
@@ -17,7 +18,7 @@ const App = () => {
                 <Hero />
                 <Spotlight />
                 <Article />
-                
+                <NewsList />
                 
             </main>
         </>

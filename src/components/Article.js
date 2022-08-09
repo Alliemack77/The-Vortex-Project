@@ -12,7 +12,6 @@ const Article = () => {
                 <SectionHeading subtitle="The Next Doctor?"/>
                 <div className="body">
                     <p>Your guess is as good as ours. Checkout our predictions for the next Doctor.</p>
-                    <p className="fw-700 italic">January 12, 2022</p>
                 </div>
                 <Button text="Read More"/>
             </div>

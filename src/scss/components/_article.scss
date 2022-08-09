@@ -1,8 +1,9 @@
 @use '../abstracts/mixins' as *;
+@use '../abstracts/variables' as *;
 
 
 .article {
-    @include margin-block(0, 10rem);
+    @include margin-block(0, $spacing-lrg);
     background-image: url(../assets/tardis-forrest.jpg);
     background-position: 10% center;
     background-repeat: no-repeat;
