@@ -1,0 +1,36 @@
+@use '../abstracts/colors' as *;
+@use '../abstracts/fonts' as *;
+
+.news-feed-item {
+    // border: solid red 2px;
+    display: flex;
+    gap: 1rem;
+    // max-width: 430px;
+    max-height: 110px;
+
+    margin-bottom: 2rem;
+
+    .news-link {
+        order: 2;
+        display: flex;
+        text-decoration: none;
+
+        .news-image {
+            background-position: center;
+            background-size: cover;
+            max-width: 135px;
+            height: 110px;
+            aspect-ratio: 1 / 1;
+        }
+
+        .news-details {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+
+
+   
+   
+}

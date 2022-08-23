@@ -24,7 +24,7 @@
         }
 
         .button {
-            @include margin-block(2rem, 0)
+            @include margin-block(2rem, 0);
         }
     }
 

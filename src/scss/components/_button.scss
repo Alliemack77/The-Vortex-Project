@@ -16,8 +16,13 @@
 
     &:hover, 
     &:focus-within {
+        border: soid red 2px;
         outline: solid $clr-tertiary 2px;
         background-color: transparent;
         color: $clr-tertiary;
+        cursor: pointer;
     }
+
+
 }
+

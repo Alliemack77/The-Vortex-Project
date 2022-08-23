@@ -6,10 +6,12 @@
 
     a {
         color: $clr-secondary;
+        cursor: pointer;
     }
 
-    a:hover, 
-    a:focus-within {
+    &a:hover, 
+    &a:focus-within {
         color: $clr-tertiary;
+        cursor: pointer;
     }
 }
