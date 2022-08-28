@@ -1,36 +1,66 @@
 @use '../abstracts/colors' as *;
 @use '../abstracts/fonts' as *;
+@use '../abstracts/variables' as *;
 
 .news-feed-item {
-    // border: solid red 2px;
     display: flex;
     gap: 1rem;
-    // max-width: 430px;
-    max-height: 110px;
-
-    margin-bottom: 2rem;
+    max-width: 290px;
 
     .news-link {
         order: 2;
         display: flex;
+        gap: 1rem;
         text-decoration: none;
 
         .news-image {
             background-position: center;
             background-size: cover;
-            max-width: 135px;
-            height: 110px;
+            background-repeat: no-repeat;
+            min-height: 110px;
             aspect-ratio: 1 / 1;
         }
 
         .news-details {
+            // border: solid 2px red;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            // padding-inline-end: 1rem;
+            font-size: .875rem;
+
+            h3 {
+                font-size: 1rem;
+            }
         }
     }
 
 
-   
-   
+    @media (min-width: $mq-768) {
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 330px;
+        box-shadow: 10px 4px 10px 0 rgba(0, 0, 0, .25);
+
+        .news-link {
+            order: -1;
+            flex-direction: column;
+            gap: 1;
+
+            .news-image {
+                max-width: 330px;
+                max-height: 200px;
+            }
+
+            .news-details {
+                gap: 4rem;
+                font-size: 1rem;
+                padding-inline: 1rem ;
+    
+                h3 {
+                    font-size: 1.125rem;
+                }
+            }
+        }
+    }  
 }

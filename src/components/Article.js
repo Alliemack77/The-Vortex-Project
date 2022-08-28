@@ -1,8 +1,6 @@
 import React from 'react'
 import Button from './Button'
 import SectionHeading from './SectionHeading'
-import tardisForrest from '../assets/tardis-forrest.jpg'
-
 
 
 const Article = () => {
@@ -15,7 +13,6 @@ const Article = () => {
                 </div>
                 <Button text="Read More" href="#" icon={false} arrow={false}/>
             </div>
-            {/* <img src={tardisForrest} alt=""/> */}
         </div>
     )
 }

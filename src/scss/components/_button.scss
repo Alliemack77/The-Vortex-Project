@@ -4,11 +4,12 @@
 
 .button {
     display: inline-flex;
-    gap: 1rem;
+    gap: .75rem;
     align-items: center;
-    padding: .5rem 1.25em;
+    padding: 1rem 1.25em;
     border-radius: 5px;
     text-decoration: none;
+
     
     svg {
         font-size: 2rem;
@@ -16,7 +17,6 @@
 
     &:hover, 
     &:focus-within {
-        border: soid red 2px;
         outline: solid $clr-tertiary 2px;
         background-color: transparent;
         color: $clr-tertiary;

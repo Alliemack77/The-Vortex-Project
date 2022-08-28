@@ -2,6 +2,7 @@ import React from 'react'
 import SectionHeading from './SectionHeading'
 import SectionSubheading from './SectionSubheading'
 import jennaSpotlight from '../assets/clara-spotlight.jpg'
+import Button from './Button'
 
 
 const Spotlight = () => {

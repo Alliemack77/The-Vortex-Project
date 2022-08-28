@@ -7,11 +7,13 @@
     a {
         color: $clr-secondary;
         cursor: pointer;
+        
+        :hover, 
+        :focus-within {
+            color: $clr-tertiary;
+            cursor: pointer;
+        }
     }
 
-    &a:hover, 
-    &a:focus-within {
-        color: $clr-tertiary;
-        cursor: pointer;
-    }
+    
 }

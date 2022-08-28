@@ -3,7 +3,7 @@
 
 
 .article {
-    @include margin-block(0, $spacing-lrg);
+    @include margin-block(0, 4rem);
     background-image: url(../assets/tardis-forrest.jpg);
     background-position: 10% center;
     background-repeat: no-repeat;

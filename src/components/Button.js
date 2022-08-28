@@ -5,7 +5,7 @@ import { AiOutlineArrowRight } from 'react-icons/ai';
 const Button = ({icon, text, arrow, href}) => {
     return (
         <a 
-            className='button bg-tertiary text-secondary' 
+            className='button bg-tertiary text-primary fw-500' 
             href={href} 
             target="_blank"
         >
