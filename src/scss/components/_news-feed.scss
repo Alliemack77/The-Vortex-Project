@@ -1,16 +1,18 @@
 @use '../abstracts/mixins' as *;
 
 .news-feed {
+    border: solid red 2px;
     @include margin-block(4rem, 0);
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+    justify-items: center;
+    // > * {
+    //     flex: 0 1 100%;
+    // }
 
-    display: flex;
-    gap: 4rem;
-
-    > * {
-        flex: 0 1 100%;
-    }
-
-    @media (min-width: 200px ) {
-        flex-wrap: wrap;
+    @media (min-width: 980px ) {
+        padding-inline: 2rem;
+        gap: 7rem;
     }
 }
